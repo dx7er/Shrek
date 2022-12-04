@@ -68,11 +68,11 @@ function menu_(){
 
 function instalrun_(){
 	echo -e $cyan
-	apt-get update -y
+	#updating linux to latest version
 	apt-get update -y
 	
+	#installing dependencies 
 	apt-get install gpgv2 autoconf bison build-essential postgresql libaprutil1 libgmp3-dev libpcap-dev openssl libpq-dev libreadline6-dev libsqlite3-dev libssl-dev locate libsvn1 libtool libxml2 libxml2-dev libxslt-dev wget libyaml-dev ncurses-dev  postgresql-contrib xsel zlib1g zlib1g-dev -y
-	
 	apt-get install gem build-essential libreadline-dev  libssl-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev openjdk-7-jre subversion git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev vncviewer libyaml-dev ruby-bundler ruby-full -y
 	
 	echo -e $lightgreen
@@ -179,9 +179,7 @@ function mainf_(){
 		exit 1
 	fi
 }
-#installing from github will take long time than installing directly from source code
 #=============================================================================================
-
 
 mainf_
 #ENDOFCODE
