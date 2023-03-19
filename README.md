@@ -7,3 +7,5 @@ Bash Script to automate Metasploit. A script to automate server side attacks.
 # How to Run.
 1. Use Command: `chmod +x autmsf.sh` to change permissions.
 2. Use Command: `./autmsf.sh` to Run.
+#
+<a href="https://www.buymeacoffee.com/naqviO7" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
